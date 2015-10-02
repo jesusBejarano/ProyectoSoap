@@ -17,7 +17,7 @@ public class ConexionDB {
         Connection conexion = null;
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            conexion = DriverManager.getConnection("jdbc:mysql://127.0.0.1/bd_licoreria","root","daleseg");
+            conexion = DriverManager.getConnection("jdbc:mysql://127.0.0.1/upclicoreria","adminZSFduhG","75jwmp-X_ggV");
         } catch (Exception ex) {
             conexion = null;
             System.out.println("Excepcion Interna : " + ex.getMessage());
